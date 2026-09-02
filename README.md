@@ -1,4 +1,4 @@
-# Hi, I'm Betta 👋
+# Hi, I'm Betta-core 👋
 
 I'm a **Full-Stack Developer & Game Infrastructure Architect** building high-performance game servers, automated web platforms, and realtime tooling.
 
