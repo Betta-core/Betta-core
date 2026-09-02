@@ -14,5 +14,5 @@
 
 ### 📬 Links
 * 🌐 **Web:** [mvp-project-cs2.ru](https://mvp-project-cs2.ru)
-* 🐦 **X:** [[@Betta_devops]
+* 🐦 **X:** [@Betta_devops]
 * 💬 **Telegram:** [@KiUgolnik]
