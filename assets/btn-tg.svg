@@ -1,13 +1,31 @@
-<svg viewBox="0 0 280 46" width="280" height="46" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 286.67 60" width="100%" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#12161f"/>
-      <stop offset="100%" stop-color="#0a0d12"/>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+    </style>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#111622"/>
+      <stop offset="100%" stop-color="#090c12"/>
+    </linearGradient>
+    <linearGradient id="bdr" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="50%" stop-color="#1e2533" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.28"/>
     </linearGradient>
   </defs>
-  <rect x="1" y="1" width="278" height="44" rx="10" fill="url(#bg)" stroke="#21262d" stroke-width="1.2"/>
-  <circle cx="20" cy="23" r="3.5" fill="#ffffff"/>
-  <text x="32" y="27" fill="#6e7681" font-family="'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="600">TG //</text>
-  <text x="72" y="27" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12.5" font-weight="600">@Betta0ps</text>
-  <text x="254" y="27" fill="#8b949e" font-family="sans-serif" font-size="13">↗</text>
+
+  <rect x="6" y="6" width="274.67" height="52" rx="13" fill="url(#bg)" stroke="url(#bdr)" stroke-width="1.2"/>
+
+  <!-- Left Vector Telegram Badge -->
+  <rect x="17" y="15" width="34" height="34" rx="9" fill="#0d1d2e" stroke="#1e4266" stroke-width="1"/>
+  <path d="M 41,25.5 L 25.5,31.5 L 30.2,33.4 L 37.8,28.2 L 32.3,34.4 L 32.1,38.2 L 34.8,35.6 L 38.4,38.3 Z" fill="none" stroke="#38bdf8" stroke-width="1.4" stroke-linejoin="round"/>
+
+  <!-- Labels -->
+  <text x="61" y="27" fill="#64748b" font-size="9.5" font-weight="700" letter-spacing="1" class="mono">DIRECT TELEGRAM</text>
+  <text x="61" y="43" fill="#ffffff" font-size="13" font-weight="700" class="sans">@Betta0ps</text>
+
+  <!-- Right Vector External Arrow Box -->
+  <rect x="242" y="19" width="26" height="26" rx="7" fill="#131824" stroke="#232c3d" stroke-width="1"/>
+  <path d="M 251.5,35.5 L 258.5,28.5 M 253,28.5 H 258.5 V 34" fill="none" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
